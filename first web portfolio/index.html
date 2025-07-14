@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elorm Delight Brown | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Elorm Delight Brown</h1>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+    <nav id="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm Elorm Delight Brown, a creative multimedia specialist with a passion for storytelling through design, visuals, and technology. Based in Accra, Ghana, I bring a unique blend of artistic vision and technical skill to every project I undertake. I specialize in graphic design, video editing, motion design, UI/UX design, and digital branding — with hands-on experience using industry-standard tools like Photoshop, After Effects, Figma, and Audacity.
+
+I began my creative journey working with churches and local businesses, helping them bring their visions to life through eye-catching flyers, promotional videos, and social media content. I’ve also had the opportunity to intern with a professional photographer and videographer, gaining real-world experience in shooting, editing, and producing high-quality visuals for events and clients.
+
+Currently, I’m pursuing my education at DevWorld Tech Academy, where I'm sharpening my skills in software development, web design, and motion graphics. Through every project — whether it's a flyer for a church program, a website prototype, or a cinematic video edit — I aim to combine design thinking with meaningful impact.
+
+My approach is always detail-driven, people-focused, and fueled by curiosity. I love exploring new styles and techniques, staying on top of design trends, and using creativity as a tool to solve problems and connect with audiences. In everything I do, I strive to not just make things look good — but to make them communicate powerfully.
+
+If you're looking for someone who’s passionate, reliable, and deeply invested in their craft, I’d love to collaborate.</p>
+    <img src="profile.JPG" alt="Elorm Brown profile photo">
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="gallery">
+      <a onclick="openModal('modal1')">
+        <img src="RCC-HALF-YEAR-PROGRAM.jpg" alt="Project 1">
+        <p>Church Flyer Design</p>
+      </a>
+      <a onclick="openModal('modal2')">
+        <img src="figma screenshot.png" alt="Project 2">
+        <p>UX/UI Redesign - GlitchCore</p>
+      </a>
+    </div>
+
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h3>Church Flyer Design</h3>
+        <p>Designed for a local church with blue and white as the base color, paired with gold for elegance. Tools used: Photoshop.</p>
+      </div>
+    </div>
+
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h3>GlitchCore UX/UI</h3>
+        <p>Gaming website interface with dark-themed minimal UI. Tools used: Figma.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: kobbymultimediafirm@gmail.com</p>
+    <p>Phone: 0545414923</p>
+    <p>Socials: <a href="https://www.instagram.com/bruh_kobby20?igsh=N2g3OXB6ZW9vZ3Zs&utm_source=qr">Instagram</a> | <a href="https://www.tiktok.com/@bruhkobby?_t=ZM-8y0Qh5uJ4ze&_r=1">Tiktok</a> | <a href="www.linkedin.com/in/
+elorm-kwabena-delight-5887a5348
+">LinkedIn</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Elorm Delight Brown. All rights reserved.</p>
+  </footer>
+</body>
+</html>
